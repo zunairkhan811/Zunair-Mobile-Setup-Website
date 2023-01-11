@@ -1,35 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@100&display=swap');
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
 .container {
   display: block;
   margin: 50px auto;
   width: 375px;
   height: 840px;
 }
+
 .header {
   width: 375px;
   height: 50px;
   background-color: #3c3a39;
 }
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
 }
+
 .logo {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: white;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   margin: 15px;
 }
+
 .logo:hover {
   color: blueviolet;
 }
+
 .menu-bar {
   width: 24px;
   height: 24px;
@@ -37,15 +42,18 @@
   margin: 15px;
   cursor: pointer;
 }
+
 .menu-bar:hover {
   color: blueviolet;
 }
+
 .headline-section {
   display: flex;
   flex-direction: column;
   width: 375px;
   height: 590px;
 }
+
 .headline-section::before {
   position: absolute;
   content: "";
@@ -64,8 +72,9 @@
   width: 327px;
   height: 124px;
 }
+
 .heading-1 h1 {
-  font-family: "Crete Round";
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -78,8 +87,9 @@
   height: 27px;
   margin: 9px auto;
 }
+
 .heading-2 h2 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -91,15 +101,16 @@
   width: 327px;
   height: 123px;
 }
+
 .paragraph p {
-    display: flex;
-    flex-wrap: wrap;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 100;
-    font-size: 15px;
-    line-height: 24px;
-    color: #e1c9c9;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 24px;
+  color: #e1c9c9;
 }
 
 .social-icons-container {
@@ -117,6 +128,7 @@
   cursor: pointer;
   font-size: 20px;
 }
+
 .social-icons:hover {
   color: blueviolet;
 }
