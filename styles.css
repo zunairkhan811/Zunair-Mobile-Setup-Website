@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@100&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  display: block;
+  margin: 50px auto;
+  width: 375px;
+  height: 840px;
+}
+.header {
+  width: 375px;
+  height: 50px;
+  background-color: #3c3a39;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  font-family: "Roboto";
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 15px;
+}
+.logo:hover {
+  color: blueviolet;
+}
+.menu-bar {
+  width: 24px;
+  height: 24px;
+  color: white;
+  margin: 15px;
+  cursor: pointer;
+}
+.menu-bar:hover {
+  color: blueviolet;
+}
+.headline-section {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 590px;
+}
+.headline-section::before {
+  position: absolute;
+  content: "";
+  top: 100px;
+  background: url(/images/backgroundimage.png);
+  width: 375px;
+  height: 590px;
+  z-index: -1;
+}
+
+.headline-container {
+  margin: 124px 24px;
+}
+
+.heading-1 {
+  width: 327px;
+  height: 124px;
+}
+.heading-1 h1 {
+  font-family: "Crete Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  color: #ff6b00;
+  line-height: 64px;
+}
+
+.heading-2 {
+  width: 327px;
+  height: 27px;
+  margin: 9px auto;
+}
+.heading-2 h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff5e1;
+  line-height: 32px;
+}
+
+.paragraph {
+  width: 327px;
+  height: 123px;
+}
+.paragraph p {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 24px;
+    color: #e1c9c9;
+}
+
+.social-icons-container {
+  width: 200px;
+  height: 40px;
+  margin: 11px;
+  padding: 7px;
+}
+
+.social-icons {
+  width: 34px;
+  height: 16px;
+  padding: 2px 2px;
+  color: #dbd8d7;
+  cursor: pointer;
+  font-size: 20px;
+}
+.social-icons:hover {
+  color: blueviolet;
+}
