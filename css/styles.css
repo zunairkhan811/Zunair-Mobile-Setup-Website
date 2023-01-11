@@ -3,13 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
 
 .container {
   display: block;
-  margin: 0px auto;
+  margin: 0 auto;
   width: 412px;
   height: 915px;
 }
@@ -120,12 +121,12 @@ html{
 
 .social-icons-container {
   width: 300px;
-    height: 80px;
-    margin-top: 19px;
-    padding: 7px;
+  height: 80px;
+  margin-top: 19px;
+  padding: 7px;
 }
 
-.vectorimg{
+.vectorimg {
   width: 20px;
   height: 16px;
   color: #eb4108;
@@ -133,7 +134,7 @@ html{
   font-size: 20px;
 }
 
-.vectorimg:hover{
+.vectorimg:hover {
   filter: invert(24%) sepia(88%) saturate(3738%) hue-rotate(263deg) brightness(88%) contrast(102%);
 }
 
@@ -144,7 +145,6 @@ html{
   cursor: pointer;
   font-size: 20px;
 }
-
 
 .social-icons:hover {
   color: #8a2be2;
