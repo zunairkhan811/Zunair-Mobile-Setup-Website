@@ -3,23 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 .container {
   display: block;
-  margin: 50px auto;
-  width: 375px;
-  height: 840px;
+  margin: 0px auto;
+  width: 412px;
+  height: 915px;
 }
 
-.header {
-  width: 375px;
-  height: 50px;
+.header-section {
+  width: 412px;
+  height: 65px;
   background-color: #3c3a39;
 }
 
 .nav-bar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -50,17 +54,17 @@
 .headline-section {
   display: flex;
   flex-direction: column;
-  width: 375px;
-  height: 590px;
+  width: 412px;
+  height: 850px;
 }
 
 .headline-section::before {
   position: absolute;
   content: "";
-  top: 100px;
+  top: 65px;
   background: url(/images/backgroundimage.png);
-  width: 375px;
-  height: 590px;
+  width: 412px;
+  height: 850px;
   z-index: -1;
 }
 
@@ -85,7 +89,8 @@
 .heading-2 {
   width: 327px;
   height: 27px;
-  margin: 9px auto;
+  margin-top: 19px;
+  margin-bottom: 19px;
 }
 
 .heading-2 h2 {
@@ -114,21 +119,33 @@
 }
 
 .social-icons-container {
-  width: 200px;
-  height: 40px;
-  margin: 11px;
-  padding: 7px;
+  width: 300px;
+    height: 80px;
+    margin-top: 19px;
+    padding: 7px;
+}
+
+.vectorimg{
+  width: 20px;
+  height: 16px;
+  color: #eb4108;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.vectorimg:hover{
+  filter: invert(24%) sepia(88%) saturate(3738%) hue-rotate(263deg) brightness(88%) contrast(102%);
 }
 
 .social-icons {
   width: 34px;
   height: 16px;
-  padding: 2px 2px;
   color: #dbd8d7;
   cursor: pointer;
   font-size: 20px;
 }
 
+
 .social-icons:hover {
-  color: blueviolet;
+  color: #8a2be2;
 }
