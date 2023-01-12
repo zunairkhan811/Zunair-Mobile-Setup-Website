@@ -13,9 +13,12 @@ html {
   margin: 0 auto;
   width: 412px;
   height: 915px;
+  overflow-y: scroll;
 }
 
 .header-section {
+  position: absolute;
+  top: 0;
   width: 412px;
   height: 65px;
   background-color: #3c3a39;
@@ -28,7 +31,7 @@ html {
 }
 
 .nav-bar a {
-  /* text-decoration: none; */
+  text-decoration: none;
 }
 
 .logo {
@@ -61,17 +64,19 @@ html {
   flex-direction: column;
   width: 412px;
   height: 850px;
+  background: url(/images/backgroundimage.png);
 }
 
-.headline-section::before {
-  position: absolute;
+/* .headline-section::before {
+  position: fixed;
   content: "";
   top: 65px;
   background: url(/images/backgroundimage.png);
   width: 412px;
   height: 850px;
   z-index: -1;
-}
+
+} */
 
 .headline-container {
   margin: 124px 24px;
@@ -144,7 +149,9 @@ html {
 }
 
 .vectorimg:hover {
-  filter: invert(24%) sepia(88%) saturate(3738%) hue-rotate(263deg) brightness(88%) contrast(102%);
+  filter:
+    invert(24%) sepia(88%) saturate(3738%) hue-rotate(263deg)
+    brightness(88%) contrast(102%);
 }
 
 .social-icons {
@@ -157,4 +164,189 @@ html {
 
 .social-icons:hover {
   color: #8a2be2;
+}
+
+.work-section {
+  width: 412px;
+  height: 850px;
+  border-bottom: 2px solid purple;
+  display: grid;
+  grid-template-rows: 1fr 2fr 3fr;
+}
+
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 0;
+  font-size: 20px;
+  color: #1c1a19;
+  border-bottom: 1px solid #212121;
+  width: 327px;
+  height: 107px;
+  margin: 57px auto;
+}
+
+.box-2 {
+  width: 327px;
+  height: 237px;
+  margin: auto auto;
+}
+
+.box-3 {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid purple;
+  width: 327px;
+  height: 337px;
+  margin: 21px auto;
+}
+
+.multi-post-heading {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  display: flex;
+  line-height: 44px;
+  align-items: center;
+  color: #091e42;
+}
+
+.multi-post-para {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+  margin: 16px auto;
+}
+
+.multi-post-button-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button-1 {
+  padding: 10px 12px;
+  border: 1px solid #8993a4;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  background: #fff;
+  color: #091e42;
+  margin-right: 12px;
+}
+
+.button-1:hover {
+  background: #8993a4;
+  color: whitesmoke;
+}
+
+.button-2 {
+  padding: 12px;
+  background: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  margin-top: 11px;
+}
+
+.button-2:hover {
+  background: #fcad75;
+  color: #212121;
+}
+
+.cards-section {
+  width: 412px;
+  height: 2553px;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  row-gap: 4px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid purple;
+  width: 327px;
+  height: 386px;
+  margin: 2px auto;
+  background: url(/images/Card\ Works.png);
+}
+
+.text-box {
+  margin-top: 85px;
+  width: 100%;
+  height: 248px;
+  border: 2px solid purple;
+}
+
+.text-box-heading {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  margin: auto 7px;
+}
+
+.text-box-paragraph {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin: 4px 7px;
+}
+
+.text-box-buttons {
+  margin: auto 7px;
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+.button-3 {
+  padding: 10px 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+  margin-right: 12px;
+  background: rgba(255, 255, 255, 0.24);
+  cursor: pointer;
+}
+
+.button-3:hover {
+  background: #fff;
+  color: #091e42;
+}
+
+.button-4 {
+  position: relative;
+  height: 48px;
+  width: 100%;
+  bottom: 0;
+  background: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.button-4:hover {
+  background: #fcad75;
+  color: #212121;
 }
