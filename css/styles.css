@@ -125,6 +125,11 @@ html {
   margin-top: 19px;
   padding: 7px;
 }
+.social-icons-container ul{
+  display: flex;
+  list-style: none;
+}
+
 
 .vectorimg {
   width: 20px;
