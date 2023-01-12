@@ -27,6 +27,10 @@ html {
   align-items: center;
 }
 
+.nav-bar a {
+  text-decoration: none;
+}
+
 .logo {
   font-family: "Roboto", sans-serif;
   color: white;
