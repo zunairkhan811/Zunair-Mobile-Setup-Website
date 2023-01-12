@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 412px;
+  height: 915px;
+}
+
+.header-section {
+  width: 412px;
+  height: 65px;
+  background-color: #3c3a39;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 15px;
+}
+
+.logo:hover {
+  color: blueviolet;
+}
+
+.menu-bar {
+  width: 24px;
+  height: 24px;
+  color: white;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.menu-bar:hover {
+  color: blueviolet;
+}
+
+.headline-section {
+  display: flex;
+  flex-direction: column;
+  width: 412px;
+  height: 850px;
+}
+
+.headline-section::before {
+  position: absolute;
+  content: "";
+  top: 65px;
+  background: url(/images/backgroundimage.png);
+  width: 412px;
+  height: 850px;
+  z-index: -1;
+}
+
+.headline-container {
+  margin: 124px 24px;
+}
+
+.heading-1 {
+  width: 327px;
+  height: 124px;
+}
+
+.heading-1 h1 {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  color: #ff6b00;
+  line-height: 64px;
+}
+
+.heading-2 {
+  width: 327px;
+  height: 27px;
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+
+.heading-2 h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff5e1;
+  line-height: 32px;
+}
+
+.paragraph {
+  width: 327px;
+  height: 123px;
+}
+
+.paragraph p {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 24px;
+  color: #e1c9c9;
+}
+
+.social-icons-container {
+  width: 300px;
+  height: 80px;
+  margin-top: 19px;
+  padding: 7px;
+}
+
+.social-icons-container ul {
+  display: flex;
+  list-style: none;
+}
+
+.vectorimg {
+  width: 20px;
+  height: 16px;
+  color: #eb4108;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.vectorimg:hover {
+  filter: invert(24%) sepia(88%) saturate(3738%) hue-rotate(263deg) brightness(88%) contrast(102%);
+}
+
+.social-icons {
+  width: 34px;
+  height: 16px;
+  color: #dbd8d7;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.social-icons:hover {
+  color: #8a2be2;
+}
