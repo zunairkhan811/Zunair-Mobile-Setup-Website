@@ -8,7 +8,7 @@ html {
   scroll-behavior: smooth;
 }
 
-:root{
+:root {
   --primary-color: #ff6b00;
   --color-secondary: #ec5242;
   --color-tertiary: #d3d3d3;
@@ -17,7 +17,6 @@ html {
   --color-light-grey: #ebf0ee;
 }
 
-
 .container {
   display: block;
   margin: 0 auto;
@@ -25,7 +24,6 @@ html {
   height: 915px;
   overflow-y: scroll;
 }
-
 
 .header-section {
   position: absolute;
@@ -165,7 +163,6 @@ html {
   color: #8a2be2;
 }
 
-
 .work-section {
   width: 412px;
   height: 850px;
@@ -264,7 +261,6 @@ html {
   color: #212121;
 }
 
-
 .cards-section {
   width: 412px;
   height: 2553px;
@@ -352,7 +348,6 @@ html {
   color: #212121;
 }
 
-
 .about-me {
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -394,7 +389,6 @@ html {
   color: #e1c9c9;
 }
 
-
 .language-container {
   display: flex;
   flex-direction: column;
@@ -405,7 +399,6 @@ html {
   height: 1186px;
   margin: auto;
 }
-
 
 .language-heading {
   display: flex;
@@ -467,8 +460,6 @@ html {
 .language-list-items ul li::before {
   content: "";
 }
-
-
 
 .framework-heading {
   display: flex;
@@ -534,7 +525,6 @@ html {
   content: "";
 }
 
-
 .skills-heading {
   display: flex;
   flex-direction: column;
@@ -597,7 +587,6 @@ html {
 .skill-list-items ul li::before {
   content: "";
 }
-
 
 .contact-section {
   display: grid;
@@ -686,7 +675,6 @@ html {
   background: #ffbe90;
   color: #3b2b2b;
 }
-
 
 .footer-container {
   width: 412px;
