@@ -54,6 +54,9 @@ This project has been made using html and css only according to project requirem
 
 
 - **[Home_Page_is_Designed]**
+- **[Work_Section_is_Designed]**
+- **[About_Section_is_Designed]**
+- **[Contact_Section_is_Designed]**
 - **[Mobile_version_is_Made]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -64,7 +67,7 @@ This project has been made using html and css only according to project requirem
 
 <!-- Note: Right now Application hasn't been Deployed yet. In future if this will be deployed,
 Deployed Link will update here -->
-- [Live Demo Link](https://yourdeployedapplicationlink.com) 
+- [Live Demo Link](Will be Updated Soon) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
