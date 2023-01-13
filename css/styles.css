@@ -8,6 +8,8 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Mobile-container section */
+
 .container {
   display: block;
   margin: 0 auto;
@@ -15,6 +17,8 @@ html {
   height: 915px;
   overflow-y: scroll;
 }
+
+/* Home-Page Css start from here */
 
 .header-section {
   position: absolute;
@@ -66,17 +70,6 @@ html {
   height: 850px;
   background: url(/images/backgroundimage.png);
 }
-
-/* .headline-section::before {
-  position: fixed;
-  content: "";
-  top: 65px;
-  background: url(/images/backgroundimage.png);
-  width: 412px;
-  height: 850px;
-  z-index: -1;
-
-} */
 
 .headline-container {
   margin: 124px 24px;
@@ -166,10 +159,12 @@ html {
   color: #8a2be2;
 }
 
+/* Work-section css start from here */
+
 .work-section {
   width: 412px;
   height: 850px;
-  border-bottom: 2px solid purple;
+  /* border-bottom: 2px solid purple; */
   display: grid;
   grid-template-rows: 1fr 2fr 3fr;
 }
@@ -198,7 +193,7 @@ html {
 .box-3 {
   display: flex;
   flex-direction: column;
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
   width: 327px;
   height: 337px;
   margin: 21px auto;
@@ -257,12 +252,16 @@ html {
   letter-spacing: 0.03em;
   color: #fff;
   margin-top: 11px;
+  outline: none;
+  border: 1px solid #ff6b00;
 }
 
 .button-2:hover {
   background: #fcad75;
   color: #212121;
 }
+
+/* Cards-section css start from here */
 
 .cards-section {
   width: 412px;
@@ -275,7 +274,7 @@ html {
 .cards {
   display: flex;
   flex-direction: column;
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
   width: 327px;
   height: 386px;
   margin: 2px auto;
@@ -283,10 +282,10 @@ html {
 }
 
 .text-box {
-  margin-top: 85px;
+  margin-top: 90px;
   width: 100%;
   height: 248px;
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
 }
 
 .text-box-heading {
@@ -344,9 +343,256 @@ html {
   font-size: 17px;
   letter-spacing: 0.03em;
   color: #fff;
+  outline: none;
+  border: 1px solid #ff6b00;
 }
 
 .button-4:hover {
   background: #fcad75;
   color: #212121;
+}
+
+/* About-me section css start from here */
+
+.about-me{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 130px;
+  width: 412px;
+  height: 1850px;
+  background: url(/images/aboutme.png);
+}
+
+.about-me-container{
+    display: flex;
+    position: relative;
+    top: 134px;
+    flex-direction: column;
+    /* border: 2px solid purple; */
+    width: 327px;
+    height: 386px;
+    margin: auto;
+}
+
+.about-me-heading h1{
+  font-family: 'Crete Round';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 88px;
+letter-spacing: 0.37px;
+color: #FF6B00;
+}
+
+.about-me-paragraph p{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  margin: 9px auto;
+  line-height: 24px;
+  color: #e1c9c9;
+}
+
+ /* Language-container-section start from here */
+
+.language-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    /* border: 2px solid purple; */
+    width: 327px;
+    height: 1186px;
+    margin: auto;
+}
+
+/* Language heading section start from here */
+
+.language-heading{
+  display: flex;
+  flex-direction: column;
+/* border: 2px solid purple; */
+width: 225.46px;
+height: 281.46px;
+margin-top: 60px;
+}
+
+.language-heading ul{
+  list-style: none;
+  width: 100%;
+  
+}
+.language-heading ul li{
+  display: flex;
+    align-items: center;
+    font-family: 'Meera Inimai', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+}
+.language-heading ul li a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.language-heading ul li::before{
+  /* content: '\20DF'; */
+  content: '\25C6';
+  font-size: 50px;
+  margin-right: 17px;
+  color: #FF6B00;
+  /* background-color: #FF6B00; */
+}
+
+.language-list-items{
+  display: flex;
+  flex-direction: column;
+  width: 186px;
+  height: 216px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.language-list-items ul li{
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  width: max-content;
+  margin: 9px auto;
+  align-self: center;
+  line-height: 43px;
+  color: #FFFFFF;
+}
+.language-list-items ul li::before{
+  content: "";
+}
+
+/* Framework-heading-section start from here */
+
+.framework-heading{
+  display: flex;
+  flex-direction: column;
+/* border: 2px solid purple; */
+width: 281px;
+height: 336px;
+}
+
+.framework-heading ul{
+  list-style: none;
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+  
+}
+.framework-heading ul li{
+  display: flex;
+    align-items: center;
+    font-family: 'Meera Inimai', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+}
+.framework-heading ul li a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.framework-heading ul li::before{
+  content: '\25A0';
+  font-size: 50px;
+  position: relative;
+  bottom: 6px;
+  margin-right: 35px;
+  color: #FF6B00;
+}
+
+.framework-list-items{
+  display: flex;
+  flex-direction: column;
+  width: 159px;
+  height: 216px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.framework-list-items ul li{
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  width: max-content;
+  margin: 9px auto;
+  align-self: center;
+  line-height: 43px;
+  color: #FFFFFF;
+}
+
+.framework-list-items ul li::before{
+  content: "";
+}
+
+/* Skills-heading-section start from here */
+
+.skills-heading{
+  display: flex;
+  flex-direction: column;
+/* border: 2px solid purple; */
+width: 169px;
+height: 336px;
+}
+
+.skills-heading ul{
+  list-style: none;
+  width: 140px;
+  margin: auto;
+  
+}
+.skills-heading ul li{
+  display: flex;
+    align-items: center;
+    font-family: 'Meera Inimai', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+}
+.skills-heading ul li a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.skills-heading ul li::before{
+  content: '\25CF';
+  font-size: 50px;
+  position: relative;
+  bottom: 5px;
+  margin-right: 17px;
+  color: #FF6B00;
+}
+
+.skill-list-items{
+  display: flex;
+  flex-direction: column;
+  width: 186px;
+  height: 216px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.skill-list-items ul li{
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  width: max-content;
+  margin: 9px auto;
+  align-self: center;
+  line-height: 43px;
+  color: #FFFFFF;
+}
+.skill-list-items ul li::before{
+  content: "";
 }
