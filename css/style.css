@@ -73,7 +73,7 @@ html {
   flex-direction: column;
   width: 412px;
   height: 850px;
-  background: url(./images/backgroundimage.png);
+  background: url(images/backgroundimage.png);
 }
 
 .headline-container {
