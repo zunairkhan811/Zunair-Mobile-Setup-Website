@@ -73,7 +73,7 @@ html {
   flex-direction: column;
   width: 412px;
   height: 850px;
-  background: url(/images/backgroundimage.png);
+  background: url(./images/backgroundimage.png);
 }
 
 .headline-container {
@@ -275,7 +275,7 @@ html {
   width: 327px;
   height: 386px;
   margin: 2px auto;
-  background: url(/images/Card\ Works.png);
+  background: url(./images/Card\ Works.png);
 }
 
 .text-box {
@@ -354,7 +354,7 @@ html {
   row-gap: 130px;
   width: 412px;
   height: 1850px;
-  background: url(/images/aboutme.png);
+  background: url(./images/aboutme.png);
 }
 
 .about-me-container {
