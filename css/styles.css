@@ -200,7 +200,7 @@ html {
 }
 
 .multi-post-heading {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -211,7 +211,7 @@ html {
 }
 
 .multi-post-para {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -228,7 +228,7 @@ html {
 .button-1 {
   padding: 10px 12px;
   border: 1px solid #8993a4;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -245,7 +245,7 @@ html {
 .button-2 {
   padding: 12px;
   background: var(--primary-color);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -285,7 +285,7 @@ html {
 }
 
 .text-box-heading {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -295,7 +295,7 @@ html {
 }
 
 .text-box-paragraph {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -312,7 +312,7 @@ html {
 
 .button-3 {
   padding: 10px 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -333,7 +333,7 @@ html {
   width: 100%;
   bottom: 0;
   background: var(--primary-color);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -368,7 +368,7 @@ html {
 }
 
 .about-me-heading h1 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -416,7 +416,7 @@ html {
 .language-heading ul li {
   display: flex;
   align-items: center;
-  font-family: 'Meera Inimai', sans-serif;
+  font-family: "Meera Inimai", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -428,7 +428,7 @@ html {
 }
 
 .language-heading ul li::before {
-  content: '\25C6';
+  content: "\25C6";
   font-size: 50px;
   margin-right: 17px;
   color: var(--primary-color);
@@ -446,7 +446,7 @@ html {
 }
 
 .language-list-items ul li {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -478,7 +478,7 @@ html {
 .framework-heading ul li {
   display: flex;
   align-items: center;
-  font-family: 'Meera Inimai', sans-serif;
+  font-family: "Meera Inimai", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -490,7 +490,7 @@ html {
 }
 
 .framework-heading ul li::before {
-  content: '\25A0';
+  content: "\25A0";
   font-size: 50px;
   position: relative;
   bottom: 6px;
@@ -510,7 +510,7 @@ html {
 }
 
 .framework-list-items ul li {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -541,7 +541,7 @@ html {
 .skills-heading ul li {
   display: flex;
   align-items: center;
-  font-family: 'Meera Inimai', sans-serif;
+  font-family: "Meera Inimai", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -553,7 +553,7 @@ html {
 }
 
 .skills-heading ul li::before {
-  content: '\25CF';
+  content: "\25CF";
   font-size: 50px;
   position: relative;
   bottom: 5px;
@@ -573,7 +573,7 @@ html {
 }
 
 .skill-list-items ul li {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -602,7 +602,7 @@ html {
 }
 
 .contact-heading h3 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -629,7 +629,7 @@ html {
   width: 100%;
   height: 48px;
   padding: 3px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -643,7 +643,7 @@ html {
 #textarea {
   width: 100%;
   height: 114px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -656,7 +656,7 @@ html {
 }
 
 .form-button {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -684,6 +684,7 @@ html {
 
 .footer-icon-list {
   width: 300px;
+
   /* border-bottom: 4px solid #0d151e;
   border-bottom-width: 5px; */
   margin: 18px auto;
@@ -716,9 +717,16 @@ html {
 }
 
 .footer-vectorimg:hover {
-  filter: invert(35%) sepia(21%) saturate(653%) hue-rotate(179deg) brightness(93%) contrast(84%);
+  filter:
+    invert(35%) sepia(21%) saturate(653%) hue-rotate(179deg)
+    brightness(93%) contrast(84%);
 }
 
-.border-line{
-  
+.border-line {
+  border-top: 4px solid #1c1a19;
+  width: 134px;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin: auto;
 }
