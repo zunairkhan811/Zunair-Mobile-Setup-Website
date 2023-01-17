@@ -684,8 +684,8 @@ html {
 
 .footer-icon-list {
   width: 300px;
-  border-bottom: 4px solid #0d151e;
-  border-bottom-width: 5px;
+  /* border-bottom: 4px solid #0d151e;
+  border-bottom-width: 5px; */
   margin: 18px auto;
 }
 
@@ -717,4 +717,8 @@ html {
 
 .footer-vectorimg:hover {
   filter: invert(35%) sepia(21%) saturate(653%) hue-rotate(179deg) brightness(93%) contrast(84%);
+}
+
+.border-line{
+  
 }
